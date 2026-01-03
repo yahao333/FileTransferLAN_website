@@ -1,0 +1,73 @@
+{
+  "brand": "FileTransferLAN Support",
+  "nav": {
+    "home": "Home",
+    "guide": "Guide",
+    "faq": "FAQ"
+  },
+  "footer": {
+    "copyright": "© {{year}} FileTransferLAN. All rights reserved.",
+    "email": "Support Email: support@filetransfer-lan.com"
+  },
+  "home": {
+    "title": "Welcome to FileTransferLAN",
+    "subtitle": "Simple, fast, and secure local network file transfer solution",
+    "getStarted": "Get Started",
+    "download": "Download",
+    "downloadAlert": "Download link coming soon",
+    "features": {
+      "speed": {
+        "title": "⚡️ Blazing Fast",
+        "desc": "Utilize LAN bandwidth for ultra-high-speed file transfers without internet."
+      },
+      "security": {
+        "title": "🔒 Secure & Reliable",
+        "desc": "P2P transfer, data never passes through third-party servers, ensuring privacy."
+      },
+      "platform": {
+        "title": "💻 Cross Platform",
+        "desc": "Support Windows, macOS, Linux, and mobile devices. Transfer anywhere."
+      }
+    }
+  },
+  "guide": {
+    "title": "User Guide",
+    "steps": {
+      "install": {
+        "title": "1. Install",
+        "desc": "Download the installer for your OS from our official website. Run the installer and follow the prompts."
+      },
+      "launch": {
+        "title": "2. Launch",
+        "desc": "Open 'FileTransferLAN' after installation. The software will automatically scan for other devices on the same LAN."
+      },
+      "send": {
+        "title": "3. Send Files",
+        "desc": "Select the target device, click 'Send File'. Choose files and wait for the recipient to accept."
+      },
+      "receive": {
+        "title": "4. Receive Files",
+        "desc": "When a device sends you a file, a prompt will appear. Click 'Receive' to start downloading."
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions (FAQ)",
+    "q1": {
+      "question": "Why can't I find other devices?",
+      "answer": "Ensure all devices are on the same WiFi network and firewall is not blocking the software."
+    },
+    "q2": {
+      "question": "Why is the transfer speed slow?",
+      "answer": "Speed depends on router performance and signal quality. Try moving closer to the router or use 5GHz band."
+    },
+    "q3": {
+      "question": "Is there a file size limit?",
+      "answer": "Theoretically no limit, as long as you have enough disk space."
+    },
+    "q4": {
+      "question": "Is internet required?",
+      "answer": "No internet required, only a local area network (LAN) is needed."
+    }
+  }
+}

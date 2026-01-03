@@ -1,0 +1,28 @@
+/* 指南页面样式 */
+.guide-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.guide-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.guide-content section {
+  margin-bottom: 2rem;
+}
+
+.guide-content h2 {
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.guide-content p {
+  line-height: 1.8;
+  color: #444;
+  font-size: 1.1rem;
+}

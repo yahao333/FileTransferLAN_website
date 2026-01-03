@@ -1,0 +1,13 @@
+/* 页脚样式 */
+.footer {
+  background-color: #f1f1f1;
+  padding: 2rem;
+  text-align: center;
+  margin-top: auto; /* 让页脚始终在底部 */
+  border-top: 1px solid #ddd;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+  color: #666;
+}
