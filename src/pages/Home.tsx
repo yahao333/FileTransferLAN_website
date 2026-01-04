@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { DOWNLOAD_URL } from '../constants';
 import './Home.css';
 
 /**
@@ -25,7 +26,7 @@ const Home: React.FC = () => {
         <p>{t('home.subtitle')}</p>
         <div className="cta-buttons">
           <Link to="/guide" className="btn btn-primary">{t('home.getStarted')}</Link>
-          <a href="#" className="btn btn-secondary" onClick={(e) => { e.preventDefault(); alert(t('home.downloadAlert')); }}>{t('home.download')}</a>
+          <a href={DOWNLOAD_URL} className="btn btn-secondary" target="_blank" rel="noopener noreferrer">{t('home.download')}</a>
         </div>
       </header>
 
